@@ -1,5 +1,7 @@
 # slap_cc
 
+中文说明见 [README.zh-CN.md](README.zh-CN.md)。
+
 `slap_cc` turns a physical slap on an Apple Silicon MacBook into a prompt sent to the currently focused chat UI.
 
 The project reads the laptop IMU, detects short impact spikes, picks a prompt from a pool, pastes it into the frontmost app, and submits it. The original use case here is nudging Claude Code without touching the keyboard.
